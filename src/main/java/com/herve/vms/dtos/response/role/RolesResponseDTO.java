@@ -1,7 +1,7 @@
 package com.herve.vms.dtos.response.role;
 
 
-import com.mikepn.vehiclemanagementsystem.models.Role;
+import com.herve.vms.models.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

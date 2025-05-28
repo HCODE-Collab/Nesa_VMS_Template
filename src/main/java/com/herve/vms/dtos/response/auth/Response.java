@@ -1,7 +1,7 @@
 package com.herve.vms.dtos.response.auth;
 
 
-import com.mikepn.vehiclemanagementsystem.enums.ResponseType;
+import com.herve.vms.enums.ResponseType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

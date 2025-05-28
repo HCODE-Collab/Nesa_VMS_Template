@@ -1,6 +1,6 @@
 package com.herve.vms.dtos.response.auth;
 
-import com.mikepn.vehiclemanagementsystem.models.User;
+import com.herve.vms.models.User;
 import lombok.Getter;
 import lombok.Setter;
 

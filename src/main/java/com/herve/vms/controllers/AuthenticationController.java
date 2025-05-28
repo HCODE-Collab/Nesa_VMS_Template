@@ -27,7 +27,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("auth")
+@RequestMapping("/auth")
 @RequiredArgsConstructor
 @Validated
 @Tag(name = "Authentication", description = "Authentication and user management endpoints")

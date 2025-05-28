@@ -20,12 +20,12 @@ import java.util.Set;
 @RequiredArgsConstructor
 @EnableTransactionManagement
 @EnableSpringDataWebSupport(pageSerializationMode = EnableSpringDataWebSupport.PageSerializationMode.VIA_DTO)
-public class VehicleManagementSystemApplication {
+public class VmsApplication {
 
     private final IRoleService roleService;
 
     public static void main(String[] args) {
-        SpringApplication.run(VehicleManagementSystemApplication.class, args);
+        SpringApplication.run(VmsApplication.class, args);
     }
 
     @PostConstruct
